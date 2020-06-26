@@ -1,0 +1,54 @@
+.light-mode #sidebar-wrapper {
+  background-color: white;
+  box-shadow: 0px 20px 4px 0px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.25s ease-out;
+}
+
+.light-mode .list-group-item {
+  background-color: white;
+  transition: background-color 0.25s ease-out;
+}
+
+.light-mode #selected {
+  background-color: #b6cddf;
+  color: #1c6eb6;
+  border-left: 3px solid #1c6eb6;
+}
+
+.dark-mode #sidebar-wrapper {
+  background-color: #1c1c1c;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode .list-group-item {
+  background-color: #1c1c1c;
+  color: #cfcfcf;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode #selected {
+  background-color: #6c6c6c;
+  color: #89c4f4;
+  border-left: 3px solid #89c4f4;
+  transition: background-color 0.25s ease-out;
+}
+
+#sidebar-wrapper {
+  min-height: 92vh;
+  margin-left: -4rem;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .list-group {
+  width: 4rem;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+}

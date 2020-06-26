@@ -1,0 +1,37 @@
+table {
+  margin-top: 24px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.light-mode thead {
+  background-color: white;
+  transition: background-color 0.25s ease-out;
+}
+
+.light-mode tbody tr:nth-child(odd) {
+  background-color: #f6f6f6;
+  transition: background-color 0.25s ease-out;
+}
+
+.light-mode tbody tr:nth-child(even) {
+  background-color: #dfdfdf;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode thead {
+  background-color: #1f1f1f;
+  color: #cfcfcf;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode tbody tr:nth-child(odd) {
+  background-color: #292929;
+  color: #cfcfcf;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode tbody tr:nth-child(even) {
+  background-color: #232323;
+  color: #cfcfcf;
+  transition: background-color 0.25s ease-out;
+}

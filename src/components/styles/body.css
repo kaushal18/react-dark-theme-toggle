@@ -1,0 +1,62 @@
+.light-mode #page-content-wrapper {
+  background-color: #e9e9e9;
+  transition: background-color 0.25s ease-out;
+}
+
+.light-mode .prev-next-btn {
+  background-color: #a6cae6;
+  transition: background-color 0.25s ease-out;
+}
+
+.light-mode #tabs {
+  cursor: pointer;
+  border-bottom: 1px solid #c5c4c4;
+  transition: border-bottom 0.25s ease-out;
+}
+
+.dark-mode #page-content-wrapper {
+  background-color: #121212;
+  color: #cfcfcf;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode .prev-next-btn {
+  background-color: #686868;
+  color: #7ea6c7;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode #tabs {
+  border-bottom: 1px solid #5a5a5a;
+  transition: border-bottom 0.25s ease-out;
+}
+
+i {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#tabs .selected {
+  border-bottom: 2px solid #4285f4;
+  color: #4285f4;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  font-size: 13px;
+}
+
+#page-content-wrapper .prev-next-btn {
+  font-size: 13px;
+}
+
+#page-content-wrapper .prev-next-btn i {
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+}

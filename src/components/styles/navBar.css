@@ -1,0 +1,24 @@
+.light-mode .navbar-custom {
+  background-color: #999999;
+  transition: background-color 0.25s ease-out;
+}
+
+.light-mode .nav-item {
+  color: white;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode .navbar-custom {
+  background-color: #48494a;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode .nav-item {
+  color: #cfcfcf;
+  transition: background-color 0.25s ease-out;
+}
+
+.navbar-custom {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
